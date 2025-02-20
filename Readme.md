@@ -30,7 +30,7 @@ This project is a web application built with Flask that implements a real-time n
    <div align="center">
        <img src="static/images/register.PNG" alt="Register">
    </div>
-   - **Password Hashing and Password Change:** User's password are hashed using Flask-Bcrypt to ensure security and they can change their passwords through the profile settings.
+   - **Password Hashing and Change Password:** User's password are hashed using Flask-Bcrypt to ensure security and they can change their passwords through the profile settings.
    <div align="center">
        <img src="static/images/password_change.PNG" alt="Password Change">
    </div>
