@@ -18,6 +18,7 @@ This project is a web application built with Flask that implements a real-time n
    <div align="center">
        <img src="static/images/profile.PNG" alt="Profile Page">
    </div>
+
    - **User Data Storage:** Usernames and passwords are stored securely in MongoDB.
    <div align="center">
        <img src="static/images/database.PNG" alt="Database">
@@ -30,18 +31,22 @@ This project is a web application built with Flask that implements a real-time n
    <div align="center">
        <img src="static/images/register.PNG" alt="Register">
    </div>
+
    - **Password Hashing and Change Password:** User's password are hashed using Flask-Bcrypt to ensure security and they can change their passwords through the profile settings.
    <div align="center">
        <img src="static/images/password_change.PNG" alt="Password Change">
    </div>
+
    - **Logout:** Users can log out. When a user logs out, the user's session information is deleted from the browser.
    <div align="center">
        <img src="static/images/logout.PNG" alt="Logout">
    </div>
+
    - **Profile Picture Update:** Users can upload a new profile picture, with a default image set for new users.
    <div align="center">
        <img src="static/images/upload_image.PNG" alt="Upload Avatar">
    </div>
+   
    - **Profile Information Update:** Users can update their personal information, such as name, email, and address.
    <div align="center">
        <img src="static/images/update_profile.PNG" alt="Update Profile">
