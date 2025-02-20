@@ -9,34 +9,53 @@ This project is a web application built with Flask that implements a real-time n
 1. **Implement Authentication Feature:**
    - **Listen on localhost:5000:** The Flask application listens on port 5000, serving as the entry point for users.
    - **Render Authentication Form:** The login form is rendered at `http://localhost:5000/`, allowing users to enter their credentials.
-   ![Login Page](static/images/login.PNG)
+   <div align="center">
+       <img src="static/images/login.PNG" alt="Login Page">
+   </div>
 
    - **Redirect to Profile Page:** Upon successful authentication, users are redirected to their profile page.
    - **Profile Page for Authenticated Users:** The profile page at `http://localhost:5000/profile` is accessible only to authenticated users.
-   ![Profile Page](static/images/profile.PNG)
+   <div align="center">
+       <img src="static/images/profile.PNG" alt="Profile Page">
+   </div>
    - **User Data Storage:** Usernames and passwords are stored securely in MongoDB.
-   ![Database](static/images/database.PNG)
+   <div align="center">
+       <img src="static/images/database.PNG" alt="Database">
+   </div>
 
 ### Advanced Features (Optional)
 
 1. **Account and Profile Management:**
    - **Create New Account:** Users can create new accounts (`http://localhost:5000/signup`), and each account has its own profile data.
-   ![Register](static/images/register.PNG)
+   <div align="center">
+       <img src="static/images/register.PNG" alt="Register">
+   </div>
    - **Password Hashing and Password Change:** User's password are hashed using Flask-Bcrypt to ensure security and they can change their passwords through the profile settings.
-   ![Password Change](static/images/password_change.PNG)
+   <div align="center">
+       <img src="static/images/password_change.PNG" alt="Password Change">
+   </div>
    - **Logout:** Users can log out. When a user logs out, the user's session information is deleted from the browser.
-   ![Logout](static/images/logout.PNG)
+   <div align="center">
+       <img src="static/images/logout.PNG" alt="Logout">
+   </div>
    - **Profile Picture Update:** Users can upload a new profile picture, with a default image set for new users.
-   ![Upload Avatar](static/images/upload_image.PNG)
+   <div align="center">
+       <img src="static/images/upload_image.PNG" alt="Upload Avatar">
+   </div>
    - **Profile Information Update:** Users can update their personal information, such as name, email, and address.
-   ![Update Profile](static/images/update_profile.PNG)
+   <div align="center">
+       <img src="static/images/update_profile.PNG" alt="Update Profile">
+   </div>
 
 ### Challenging Features (Optional)
 
 1. **Real-Time Notifications:**
    - **New Account Notification:** Active users receive real-time notifications when a new account is created. This is implemented using Socket.IO, which broadcasts a `notify_new_user` event to all connected clients.
    - **Toast Notifications:** Notifications are displayed as toast messages, providing a visual alert to users.
-   ![Notification](static/images/notification.PNG)
+   <div align="center">
+       <img src="static/images/notification.png" alt="Notification">
+   </div>
+
 ## Technologies Used
 
 - **Flask:** A lightweight WSGI web application framework.
@@ -59,7 +78,7 @@ This project is a web application built with Flask that implements a real-time n
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/itmo-wad/TranVanHoang-HW2
    cd your-repo-name
    ```
 
@@ -103,9 +122,9 @@ This project is a web application built with Flask that implements a real-time n
 ## Usage
 
 - **Sign Up:** Create a new account by providing a username and password.
-- **Log In:** Access your profile by logging in with your credentials.
+- **Log In and Log Out:** Access your profile by logging in with your credentials and log out.
 - **Profile Management:** Update your profile information and upload an avatar.
-- **Change Password:** Change your password.
+- **Password Management:** Hashed password and change your password.
 - **Real-Time Notifications:** Receive notifications when new users register while you are online.
 
 ## Contributing
