@@ -136,4 +136,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Socket.IO Documentation](https://socket.io/docs/)
 - [MongoDB Documentation](https://docs.mongodb.com/)
-
